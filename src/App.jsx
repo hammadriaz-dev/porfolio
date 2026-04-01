@@ -8,15 +8,6 @@ import {
 import profileImg from './assets/profile-image.jpg';
 
 
-// NOTE: Ensure your profile image is located at src/assets/profile-image.jpg
-// If you don't have an image, remove the import and the <img> tag in HeroSection.
-// import profileImg from './assets/profile-image.jpg'; 
-// Since we cannot verify this image exists, we'll use a placeholder for stability.
-
-/**
- * Main App Component: Professional Developer Portfolio
- * Features: Single-page layout, Teal/Orange accent, 3-column project layout, mock data.
- */
 const App = () => {
   // Mock data for the portfolio
   const name = "Hammad Riaz"; // <<< CUSTOMIZED
@@ -47,11 +38,21 @@ const App = () => {
     { title: "Clothing Store E-commerce", description: "Full-featured online store with product catalog and checkout system.", technologies: ["Laravel", "MySQL", "Blade"] },
     { title: "Art Selling Website", description: "Marketplace for artists to showcase and sell their original artwork.", technologies: ["Laravel", "PHP", "MySQL"] },
     { title: "Multivendor E-commerce APIS", description: "Robust backend APIs for a scalable multivendor platform.", technologies: ["Laravel", "PHP", "APIs", "MySQL"] },
+    {
+    title: "AI Chatbot with Flask",
+    description: "Intelligent chatbot built using Python and Flask with NLP capabilities for automated responses.",
+    technologies: ["Python", "Flask", "NLP", "APIs"]
+  },
+  {
+    title: "Data Analysis Dashboard",
+    description: "Interactive dashboard for analyzing and visualizing data using Python libraries.",
+    technologies: ["Python", "Pandas", "Matplotlib", "Streamlit"]
+  }
   ];
 
   const skills = [
     { area: "Core Frameworks", list: ["Laravel", "ReactJS", "Bootstrap", "Tailwind CSS"] },
-    { area: "Languages & Database", list: ["PHP", "JavaScript", "MySQL"] },
+    { area: "Languages & Database", list: ["PHP", "JavaScript", "MySQL","Python"]},
     { area: "Tools & Workflow", list: ["Git", "GitHub", "Vite", "Composer"] },
   ];
   
