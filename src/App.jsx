@@ -61,7 +61,7 @@ const App = () => {
 
   const skills = [
     { area: "Core Frameworks", list: ["Laravel", "ReactJS", "Bootstrap", "Tailwind CSS"] },
-    { area: "Languages & Database", list: ["PHP", "JavaScript", "MySQL",, "Python"] },
+    { area: "Languages & Database", list: ["PHP", "JavaScript", "MySQL", "Python"] },
     { area: "Tools & Workflow", list: ["Git", "GitHub", "Vite", "Composer"] },
   ];
   
