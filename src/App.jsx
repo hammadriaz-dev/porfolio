@@ -47,21 +47,11 @@ const App = () => {
     { title: "Clothing Store E-commerce", description: "Full-featured online store with product catalog and checkout system.", technologies: ["Laravel", "MySQL", "Blade"] },
     { title: "Art Selling Website", description: "Marketplace for artists to showcase and sell their original artwork.", technologies: ["Laravel", "PHP", "MySQL"] },
     { title: "Multivendor E-commerce APIS", description: "Robust backend APIs for a scalable multivendor platform.", technologies: ["Laravel", "PHP", "APIs", "MySQL"] },
-    {
-    title: "AI Chatbot with Flask",
-    description: "Intelligent chatbot built using Python and Flask with NLP capabilities for automated responses.",
-    technologies: ["Python", "Flask", "NLP", "APIs"]
-  },
-  {
-    title: "Data Analysis Dashboard",
-    description: "Interactive dashboard for analyzing and visualizing data using Python libraries.",
-    technologies: ["Python", "Pandas", "Matplotlib", "Streamlit"]
-  }
   ];
 
   const skills = [
     { area: "Core Frameworks", list: ["Laravel", "ReactJS", "Bootstrap", "Tailwind CSS"] },
-    { area: "Languages & Database", list: ["PHP", "JavaScript", "MySQL", "Python"] },
+    { area: "Languages & Database", list: ["PHP", "JavaScript", "MySQL"] },
     { area: "Tools & Workflow", list: ["Git", "GitHub", "Vite", "Composer"] },
   ];
   
